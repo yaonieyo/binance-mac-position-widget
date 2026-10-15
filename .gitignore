@@ -1,0 +1,55 @@
+# Local work, captures, logs, and packaged applications
+/work/
+/outputs/
+/build/
+/DerivedData/
+.DS_Store
+*.app/
+*.dSYM/
+*.dmg
+*.zip
+*.log
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.mov
+*.mp4
+
+# Xcode user state and machine-specific settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xccheckout
+*.xcscmblueprint
+*.local.xcconfig
+
+# Credentials, signing identities, and local account data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+*.sqlite
+*.sqlite-*
+*.db
+*.csv
+*.tsv
+*credentials*.json
+*credentials*.plist
+*secrets*.json
+*secrets*.plist
+
+# Editor and temporary state
+.idea/
+.vscode/
+*.swp
+*.tmp
+*~

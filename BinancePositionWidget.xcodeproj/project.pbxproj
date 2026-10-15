@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* BinancePositionWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* BinancePositionWidgetApp.swift */; };
+		A10000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppDelegate.swift */; };
+		A10000000000000000000003 /* PositionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* PositionItem.swift */; };
+		A10000000000000000000004 /* ConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ConnectionState.swift */; };
+		A10000000000000000000005 /* PositionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* PositionStore.swift */; };
+		A10000000000000000000006 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* HeaderView.swift */; };
+		A10000000000000000000007 /* EmptyPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* EmptyPositionView.swift */; };
+		A10000000000000000000008 /* SinglePositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* SinglePositionView.swift */; };
+		A10000000000000000000009 /* PositionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* PositionRow.swift */; };
+		A10000000000000000000010 /* MultiPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* MultiPositionView.swift */; };
+		A10000000000000000000011 /* PositionDetailPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* PositionDetailPopover.swift */; };
+		A10000000000000000000012 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* SettingsView.swift */; };
+		A10000000000000000000013 /* WidgetRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* WidgetRootView.swift */; };
+		A10000000000000000000014 /* WindowPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* WindowPreferences.swift */; };
+		A10000000000000000000015 /* WidgetPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* WidgetPanelController.swift */; };
+		A10000000000000000000016 /* StatusDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* StatusDot.swift */; };
+		A10000000000000000000017 /* PnLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* PnLText.swift */; };
+		A10000000000000000000018 /* Decimal+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* Decimal+Format.swift */; };
+		A10000000000000000000019 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* KeychainService.swift */; };
+		A10000000000000000000020 /* BinanceSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* BinanceSigner.swift */; };
+		A10000000000000000000021 /* BinanceRESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000021 /* BinanceRESTClient.swift */; };
+		A10000000000000000000022 /* MarketQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000022 /* MarketQuote.swift */; };
+		A10000000000000000000023 /* BinanceMarketStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000023 /* BinanceMarketStream.swift */; };
+		A10000000000000000000024 /* BinanceUserDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000024 /* BinanceUserDataStream.swift */; };
+		A10000000000000000000025 /* DesktopPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000025 /* DesktopPanel.swift */; };
+		A10000000000000000000026 /* WindowDragHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000026 /* WindowDragHandle.swift */; };
+		A10000000000000000000027 /* MarketWatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000027 /* MarketWatchlistView.swift */; };
+		A10000000000000000000028 /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000028 /* GlassBackgroundView.swift */; };
+		A10000000000000000000029 /* PrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000029 /* PrivacyController.swift */; };
+		A10000000000000000000030 /* GlobalHotkeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000030 /* GlobalHotkeyService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000000 /* BinancePositionWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinancePositionWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* BinancePositionWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinancePositionWidgetApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* PositionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionItem.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ConnectionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionState.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* PositionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* EmptyPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPositionView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* SinglePositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePositionView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* PositionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionRow.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* MultiPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPositionView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* PositionDetailPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionDetailPopover.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* WidgetRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRootView.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* WindowPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowPreferences.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* WidgetPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPanelController.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* StatusDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDot.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* PnLText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PnLText.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* Decimal+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Format.swift"; sourceTree = "<group>"; };
+		B10000000000000000000019 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* BinanceSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSigner.swift; sourceTree = "<group>"; };
+		B10000000000000000000021 /* BinanceRESTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceRESTClient.swift; sourceTree = "<group>"; };
+		B10000000000000000000022 /* MarketQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketQuote.swift; sourceTree = "<group>"; };
+		B10000000000000000000023 /* BinanceMarketStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceMarketStream.swift; sourceTree = "<group>"; };
+		B10000000000000000000024 /* BinanceUserDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceUserDataStream.swift; sourceTree = "<group>"; };
+		B10000000000000000000025 /* DesktopPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPanel.swift; sourceTree = "<group>"; };
+		B10000000000000000000026 /* WindowDragHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDragHandle.swift; sourceTree = "<group>"; };
+		B10000000000000000000027 /* MarketWatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketWatchlistView.swift; sourceTree = "<group>"; };
+		B10000000000000000000028 /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
+		B10000000000000000000029 /* PrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyController.swift; sourceTree = "<group>"; };
+		B10000000000000000000030 /* GlobalHotkeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkeyService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000001 /* App */,
+				D10000000000000000000002 /* Models */,
+				D10000000000000000000003 /* Stores */,
+				D10000000000000000000004 /* Views */,
+				D10000000000000000000005 /* Window */,
+				D10000000000000000000006 /* Components */,
+				D10000000000000000000007 /* Utilities */,
+				D10000000000000000000009 /* Services */,
+				D10000000000000000000008 /* Products */,
+			);
+			path = BinancePositionWidget;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000001 /* App */ = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002); path = App; sourceTree = "<group>"; };
+		D10000000000000000000002 /* Models */ = {isa = PBXGroup; children = (B10000000000000000000003, B10000000000000000000004, B10000000000000000000022); path = Models; sourceTree = "<group>"; };
+		D10000000000000000000003 /* Stores */ = {isa = PBXGroup; children = (B10000000000000000000005); path = Stores; sourceTree = "<group>"; };
+		D10000000000000000000004 /* Views */ = {isa = PBXGroup; children = (B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B10000000000000000000010, B10000000000000000000011, B10000000000000000000012, B10000000000000000000013, B10000000000000000000027, B10000000000000000000026, B10000000000000000000028); path = Views; sourceTree = "<group>"; };
+		D10000000000000000000005 /* Window */ = {isa = PBXGroup; children = (B10000000000000000000014, B10000000000000000000015, B10000000000000000000025); path = Window; sourceTree = "<group>"; };
+		D10000000000000000000006 /* Components */ = {isa = PBXGroup; children = (B10000000000000000000016, B10000000000000000000017); path = Components; sourceTree = "<group>"; };
+		D10000000000000000000007 /* Utilities */ = {isa = PBXGroup; children = (B10000000000000000000018); path = Utilities; sourceTree = "<group>"; };
+		D10000000000000000000008 /* Products */ = {isa = PBXGroup; children = (B10000000000000000000000 /* BinancePositionWidget.app */); name = Products; sourceTree = "<group>"; };
+		D10000000000000000000009 /* Services */ = {isa = PBXGroup; children = (B10000000000000000000019, B10000000000000000000020, B10000000000000000000021, B10000000000000000000023, B10000000000000000000024, B10000000000000000000029, B10000000000000000000030); path = Services; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* BinancePositionWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30000000000000000000002 /* Build configuration list for PBXNativeTarget "BinancePositionWidget" */;
+			buildPhases = (
+				E20000000000000000000001 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				E20000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinancePositionWidget;
+			productName = BinancePositionWidget;
+			productReference = B10000000000000000000000 /* BinancePositionWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E10000000000000000000001 = { CreatedOnToolsVersion = 26.6; };
+				};
+			};
+			buildConfigurationList = E30000000000000000000001 /* Build configuration list for PBXProject "BinancePositionWidget" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = D10000000000000000000000;
+			productRefGroup = D10000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* BinancePositionWidget */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001,
+				A10000000000000000000002,
+				A10000000000000000000003,
+				A10000000000000000000004,
+				A10000000000000000000005,
+				A10000000000000000000006,
+				A10000000000000000000007,
+				A10000000000000000000008,
+				A10000000000000000000009,
+				A10000000000000000000010,
+				A10000000000000000000011,
+				A10000000000000000000012,
+				A10000000000000000000013,
+				A10000000000000000000014,
+				A10000000000000000000015,
+				A10000000000000000000016,
+				A10000000000000000000017,
+				A10000000000000000000018,
+				A10000000000000000000019,
+				A10000000000000000000020,
+				A10000000000000000000021,
+				A10000000000000000000022,
+				A10000000000000000000023,
+				A10000000000000000000024,
+				A10000000000000000000025,
+				A10000000000000000000026,
+				A10000000000000000000027,
+				A10000000000000000000028,
+				A10000000000000000000029,
+				A10000000000000000000030,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E40000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.binance.position.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E40000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.binance.position.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E40000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug;};
+		E40000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E30000000000000000000001 /* Build configuration list for PBXProject "BinancePositionWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (E40000000000000000000001, E40000000000000000000002);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30000000000000000000002 /* Build configuration list for PBXNativeTarget "BinancePositionWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (E40000000000000000000003, E40000000000000000000004);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000001 /* Project object */;
+}
